@@ -6,7 +6,25 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { MapPin, DollarSign, MessageCircle, Plus, Edit, Trash2 } from 'lucide-react';
 
-const mockActivities = [
+interface Activity {
+  id: number;
+  time: string;
+  emoji: string;
+  title: string;
+  location?: string;
+  cost?: string;
+  comment?: string;
+  note?: string;
+  addedBy?: string;
+}
+
+interface DayActivities {
+  id: number;
+  day: string;
+  activities: Activity[];
+}
+
+const mockActivities: DayActivities[] = [
   {
     id: 1,
     day: 'Day 1: Dec 15',

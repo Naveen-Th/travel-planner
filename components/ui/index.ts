@@ -4,5 +4,3 @@ export { Card } from './card';
 export { FAB } from './fab';
 export { Modal } from './modal';
 export { Loading, LoadingCard, LoadingList } from './loading';
-
-export default { Button, Input, Card, FAB, Modal, Loading, LoadingCard, LoadingList };

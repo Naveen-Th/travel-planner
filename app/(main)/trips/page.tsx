@@ -47,7 +47,7 @@ export default function TripsPage() {
             .filter((trip) => trip.status === 'upcoming')
             .map((trip) => (
               <Link key={trip.id} href={`/trips/${trip.id}/plan`}>
-                <Card variant="elevated" padding="none" className="overflow-hidden hover:shadow-xl transition-shadow mb-3">
+                <Card variant="default" padding="none" className="overflow-hidden hover:shadow-lg transition-shadow mb-3">
                   <div className={`relative h-40 bg-gradient-to-br ${trip.color}`}>
                     <div className="absolute inset-0 bg-black/20" />
                     <div className="absolute bottom-4 left-4 text-white">
@@ -81,7 +81,7 @@ export default function TripsPage() {
               .filter((trip) => trip.status === 'past')
               .map((trip) => (
                 <Link key={trip.id} href={`/trips/${trip.id}/plan`}>
-                  <Card variant="elevated" padding="none" className="overflow-hidden hover:shadow-xl transition-shadow">
+                  <Card variant="default" padding="none" className="overflow-hidden hover:shadow-lg transition-shadow">
                     <div className={`relative h-32 bg-gradient-to-br ${trip.color}`}>
                       <div className="absolute inset-0 bg-black/20" />
                       <div className="absolute inset-0 flex items-center justify-center text-5xl">

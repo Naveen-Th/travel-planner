@@ -11,7 +11,7 @@ export default function MoneyPage() {
 
       <div className="px-4 py-6 space-y-6 max-w-2xl mx-auto">
         {/* Overview */}
-        <Card variant="elevated" padding="lg">
+        <Card variant="default" padding="lg">
           <h3 className="text-lg font-semibold mb-4">All Trips Overview</h3>
           <div className="space-y-4">
             <div>
