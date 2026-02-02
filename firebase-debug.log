@@ -1,0 +1,8 @@
+[debug] [2026-02-02T17:13:43.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-02T17:13:43.987Z] > authorizing via signed-in user (dev@rareminds.in)
+[debug] [2026-02-02T17:13:43.999Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-02T17:13:44.000Z] > authorizing via signed-in user (dev@rareminds.in)
+[debug] [2026-02-02T17:13:44.007Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-02T17:13:44.008Z] > authorizing via signed-in user (dev@rareminds.in)
+[debug] [2026-02-02T17:13:44.008Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-02T17:13:44.008Z] > authorizing via signed-in user (dev@rareminds.in)
