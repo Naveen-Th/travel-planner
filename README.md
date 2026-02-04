@@ -2,7 +2,7 @@
 
 A beautiful, mobile-first travel planning and tracking application built with Next.js 15, React 19, and Tailwind CSS 4.
 
-## ✨ Features
+## ✨ Features 
 
 ### 🔐 Authentication
 - Beautiful gradient login screen with animated background
